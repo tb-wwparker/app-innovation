@@ -41,7 +41,7 @@ app.get('/rockets', function (req, res, next) {
 
 app.get('/beverages', function (req, res, next) {
   console.error("418: I'm a teapot");
-  res.status(418).send("I'm a teapot"); // https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol
+  res.status(418).send("I'm a little teapot"); // https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol
 });
 
 app.get('/maps', function (req, res, next) {
