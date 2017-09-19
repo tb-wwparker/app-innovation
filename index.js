@@ -36,8 +36,8 @@ app.get('/atan2/:count', (req, res, next) => {
 })
 
 app.get('/rockets', function (req, res, next) {
-  throw new Error('Kaboom!');
-});
+  throw new Error('Kaboom!')
+})
 
 app.get('/beverages', function (req, res, next) {
   console.error("418: I'm a teapot");
